@@ -1,0 +1,69 @@
+/* Standaard instellingen en lettertype */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f7f6;
+color: #333333;
+line-height: 1.6;
+}
+/* Hulp-container om de inhoud mooi in het midden te houden */
+.container {
+width: 80%;
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px;
+}
+/* Header met een mooie kleurverloop (gradient) */
+header {
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+padding: 50px 0;
+text-align: center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+margin: 0 0 10px 0;
+font-size: 2.5rem;
+}
+header p {
+margin: 0;
+font-size: 1.2rem;
+opacity: 0.9;
+}
+/* De inhoud (Main) en kaarten */
+main {
+padding: 40px 0;
+}
+.card {
+background: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.card h2 {
+color: #4a5568;
+margin-top: 0;
+border-bottom: 2px solid #edf2f7;
+padding-bottom: 10px;
+}
+/* Stijl voor links */
+a {
+color: #667eea;
+text-decoration: none;
+font-weight: 600;
+transition: color 0.2s ease;
+}
+a:hover {
+color: #764ba2;
+text-decoration: underline;
+}
+/* Footer onderaan de pagina */
+footer {
+background-color: #2d3748;
+color: #a0aec0;
+text-align: center;
+padding: 20px 0;
+margin-top: 40px;
+font-size: 0.9rem;
+}
